@@ -185,6 +185,13 @@ These platforms offer transparency and control, allowing you to host the analyti
 *   **Pricing Model:** Free self-hosted option.
 *   **Target Audience:** Users comfortable with self-hosting PHP/MySQL applications, those looking for a free, comprehensive analytics suite, potentially less actively developed than Matomo.
 
+### [stratif.io](https://stratif.io)
+
+*   **Description:** Open-source, self-hosted, warehouse-native product analytics. Unlike traditional analytics tools that require an ingestion pipeline, stratif.io connects directly to your existing SQL warehouse (DuckDB, Postgres, Snowflake, ClickHouse, Databricks) and runs funnels, retention, path analysis, and sessions on events that are already there. No SDK, no duplicated data, no third-party SaaS copy.
+*   **Key Features:** Open source (Apache-2.0), self-hostable (one-command install), warehouse-native (no ingestion pipeline), funnels, retention, path analysis, sessions, conversion, pivot tables, SQL editor, multiple warehouse backends (DuckDB, PostgreSQL, ClickHouse, Snowflake, Databricks, SQLite), live demo available.
+*   **Pricing Model:** Free and open source, self-hosted. No paid tiers.
+*   **Target Audience:** SaaS teams, product-led companies, and data teams whose events are already in a SQL warehouse and who want self-hosted funnels/retention/paths without paying per event or sending data to a third party.
+
 ---
 
 ## Product Analytics Platforms
